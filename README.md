@@ -15,6 +15,10 @@ A premium, framework-free HTML template for multi-vendor e-commerce marketplaces
 | **Vendors** | [vendors.html](vendors.html) | Vendor directory with profiles and ratings |
 | **Contact** | [contact.html](contact.html) | Contact form for vendor applications, support, and partnerships |
 
+## 📸 Screenshot
+
+![Homepage Preview](screenshot.png)
+
 ## 🎨 Design System
 
 | Token | Value | Usage |
