@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact VENDORHIVE — vendor support, partnerships, and customer service.">
+  <title>Contact — VENDORHIVE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐝</text></svg>">
+</head>
+<body>
+  <div class="header-top">🎉 <strong>Free shipping</strong> on orders over $50</div>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">Vendor<span>Hive</span></a>
+        <div class="nav-search"><input type="text" placeholder="Search..."></div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="shop.html" class="nav-link">Shop</a>
+          <a href="vendors.html" class="nav-link">Vendors</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+          <a href="#" class="nav-link nav-cart">🛒 <span class="nav-cart-badge">3</span></a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title reveal">Contact <span style="color:var(--green);">Us</span></h1>
+      <p class="page-hero-desc reveal">Vendor applications, customer support, and partnership inquiries.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="reveal">
+          <h2 class="section-title" style="margin-bottom:var(--space-xl);">Send a Message</h2>
+          <form class="form" data-form novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="c-name">Full Name</label>
+                <input class="form-input" type="text" id="c-name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="c-email">Email</label>
+                <input class="form-input" type="email" id="c-email" name="email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="c-type">Inquiry Type</label>
+              <select class="form-select" id="c-type" name="type" required>
+                <option value="">Choose a topic</option>
+                <option>Customer Support</option>
+                <option>Become a Vendor</option>
+                <option>Partnership</option>
+                <option>Returns & Refunds</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="c-msg">Message</label>
+              <textarea class="form-textarea" id="c-msg" name="message" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+            <button class="btn btn--green" type="submit" style="align-self:flex-start;">Send Message</button>
+            <div class="form-ok">Thanks! We'll respond within 24 hours.</div>
+            <div class="form-err">Please fill in all required fields.</div>
+          </form>
+        </div>
+
+        <div class="contact-info reveal">
+          <h3>Contact Info</h3>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📧</div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-text">support@vendorhive.example<br>vendors@vendorhive.example</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">💬</div>
+            <div>
+              <div class="contact-info-label">Live Chat</div>
+              <div class="contact-info-text">Available Mon–Fri<br>9am – 6pm EST</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📦</div>
+            <div>
+              <div class="contact-info-label">Returns</div>
+              <div class="contact-info-text">30-day return policy<br>Free return shipping</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">🌍</div>
+            <div>
+              <div class="contact-info-label">Global</div>
+              <div class="contact-info-text">Ship to 190+ countries<br>Worldwide delivery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><div class="footer-brand-logo">Vendor<span>Hive</span></div><p class="footer-brand-desc">Multi-vendor marketplace connecting buyers with independent sellers.</p></div>
+        <div><h4 class="footer-heading">Shop</h4><div class="footer-links"><a href="shop.html" class="footer-link">All Products</a></div></div>
+        <div><h4 class="footer-heading">Vendors</h4><div class="footer-links"><a href="vendors.html" class="footer-link">All Vendors</a><a href="contact.html" class="footer-link">Sell on VendorHive</a></div></div>
+        <div><h4 class="footer-heading">Support</h4><div class="footer-links"><a href="contact.html" class="footer-link">Contact</a><a href="#" class="footer-link">Help Center</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>&copy; <span data-year></span> VENDORHIVE. All rights reserved.</span><span>Shop small, think big 🐝</span></div>
+    </div>
+  </footer>
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
